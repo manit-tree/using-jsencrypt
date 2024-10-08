@@ -41,6 +41,10 @@ async function sign() {
 }
 
 $.ready(() => {
+    // encrypt payload
+    encrypt();
+
+    // sign payload
     sign();
 })
 
