@@ -1,0 +1,9 @@
+{
+  "name": "using-jsencrypt",
+  "description":"Mini project for learning how to use JSEncrypt to encrypt and sign payload using public and private key",
+  "scripts": {
+    "dev": "live-server",
+    "generate-keys": "openssl.exe genrsa -out rsa_1024_priv.pem 1024 && openssl rsa -pubout -in rsa_1024_priv.pem -out rsa_1024_pub.pem"
+  },
+  "type": "module"
+}
